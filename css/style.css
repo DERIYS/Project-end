@@ -301,7 +301,7 @@
   border-top: 1px solid #737B7D;
   left: 0;
   padding-bottom: 24px;
-  bottom: 10%;
+  bottom: 12%;
 }
 
 
@@ -327,7 +327,6 @@
 
 /* line 49, ../New-project/Project/project/scss/_footer.scss */
 .copyryight {
-  margin-top: 24px;
   margin-bottom: 24px;
   color: #737B7D;
 }
@@ -402,11 +401,14 @@
   }
 }
 
-@media (max-width: 826px) {
+@media (max-width: 897px) {
   /* line 54, ../New-project/Project/project/scss/_media.scss */
   .source {
     font-size: 18px;
   }
+  .footer__wrapper::after {
+    bottom: 8%;
+}
 }
 
 @media (max-width: 768px) {
