@@ -43,17 +43,19 @@ body {
 }
 
  #lang {
-   background: $header-background;
+   background-color: $def-color;
    font-family: $font-mulish;
    font-weight: 600;
    font-size: 16px;
    text-align: center;
    text-transform: none;
    border: none;
+   background-color: #FFFFFF;
    outline: none;
 }
 
 .language option {
+
    border: none;
    outline: none;
    font-weight: 600;
