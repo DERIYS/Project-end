@@ -278,7 +278,7 @@
 /* line 10, ../New-project/Project/project/scss/_footer.scss */
 .footer__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25%, 230px));
+  grid-template-columns: repeat(auto-fit, minmax(25%, 230px));
   column-gap: 94px;
   margin-bottom: 41px;
   padding-top: 58px;
@@ -296,16 +296,7 @@
   padding-bottom: 24px;
   bottom: 10%;
 }
-@-moz-document url-prefix() {
-  .footer__wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25%, 230px));
-    column-gap: 94px;
-    margin-bottom: 41px;
-    padding-top: 58px;
-    justify-content: center;
-  }
-}
+
 
 /* line 29, ../New-project/Project/project/scss/_footer.scss */
 .container {
