@@ -187,6 +187,7 @@
   text-align: center;
   color: #3C64B1;
   margin-bottom: 64px;
+  font-size: 32px;
 }
 
 /* line 116, ../New-project/Project/project/scss/_main.scss */
@@ -212,6 +213,7 @@
   text-align: center;
   color: #3C64B1;
   margin-bottom: 39px;
+  font-size: 32px;
 }
 
 /* line 143, ../New-project/Project/project/scss/_main.scss */
@@ -562,7 +564,7 @@ li {
    max-width: 523px;
  }
  
- .target-1 h2, .target-2 h2, .target-3 h2, .target-4 h2 {
+ .target-2 h2, .target-3 h2, .target-4 h2 {
    font-size: 32px;
    color: #3C64B1;
    text-align: center;

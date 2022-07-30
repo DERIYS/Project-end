@@ -26,7 +26,6 @@
   width: 35px;
   height: 45px;
   cursor: pointer;
-  z-index: 1;
 }
 .menu__btn > span,
 .menu__btn > span::before,
@@ -60,6 +59,7 @@
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition: all 0.5s ease;
+  
 }
 .menu__item-burger {
   display: block;
