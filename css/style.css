@@ -418,6 +418,9 @@
   .source:nth-child(3) {
     border-radius: 21px 0 0 21px;
   }
+  .header .icons{
+    padding-top: 173px;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 410px) {
@@ -464,10 +467,7 @@
   .header-logo__img{
     display: none;
   }
-  .header .icons{
-  
-    padding-top: 173px;
-  }
+
 
 }
 /*comment*
