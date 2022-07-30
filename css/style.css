@@ -334,7 +334,7 @@
 }
 
 /* Test */
-@media (max-width: 1250px) {
+@media (max-width: 1230px) {
   /* line 2, ../New-project/Project/project/scss/_media.scss */
   .menu__btn {
     display: block;
